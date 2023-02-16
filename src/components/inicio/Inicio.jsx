@@ -40,7 +40,7 @@ const Inicio = () => {
                  sobre el recorrido de Miss. Noe-Online English,
                  nuestra oferta académica y lo que nos motiva a 
                  hacer del aprendizaje del inglés un momento de 
-                 felicidad y disfrute. Miss. Noe
+                 felicidad y disfrute.  Miss. Noe
                  
 
   
