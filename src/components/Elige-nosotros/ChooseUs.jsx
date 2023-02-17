@@ -30,12 +30,12 @@ const ChooseUs = () => {
           <Col lg="6" md="6">
             <div className="choose__img">
               {showVideo ? (
-                <ReactPlayer
-                  url="https://youtube.com/channel/UC7-vEcR4p2wvHny3Nnnw9fQ"
-                  rel="noopener" target="_blank"
+                < ReactPlayer
+                 url = "https://youtube.com/channel/UC7-vEcR4p2wvHny3Nnnw9fQ"
+                
                   controls
                   width="100%"
-                  height="350px"
+                  height="100%"
                 />
               ) : (
                 <img src={chooseImg} alt="" className="w-50" />

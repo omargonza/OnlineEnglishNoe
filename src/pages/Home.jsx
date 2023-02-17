@@ -1,13 +1,13 @@
 import React, { Fragment } from "react";
 import Header from "../components/Header/Header";
-import CompanySection from "../components/Company-section/Company";
+import CompanySection from "../components/Sección-empresas/Company";
 import Inicio from "../components/inicio/Inicio";
-import AboutUs from "../components/About-us/AboutUs";
-import Courses from "../components/Courses-section/Courses";
-import ChooseUs from "../components/Choose-us/ChooseUs";
-import Features from "../components/Feature-section/Features";
-import FreeCourse from "../components/Free-course-section/FreeCourse";
-import Newsletter from "../components/Newsletter/Newsletter";
+import AboutUs from "../components/Sobre-nosotros/AboutUs";
+import Courses from "../components/Sección-cursos/Courses";
+import ChooseUs from "../components/Elige-nosotros/ChooseUs";
+import Features from "../components/Sección-caracteristicas/Features";
+import FreeCourse from "../components/Sección-cursos-libres/FreeCourse";
+import LoginNewsletter from "../components/Newsletter/LoginNewsletter";
 import Footer from "../components/Footer/Footer";
 
 const Home = () => {
@@ -21,7 +21,7 @@ const Home = () => {
       <ChooseUs />
       <Features />
       <FreeCourse />
-      <Newsletter />
+      <LoginNewsletter />
       <Footer />
       </Fragment>
   );
