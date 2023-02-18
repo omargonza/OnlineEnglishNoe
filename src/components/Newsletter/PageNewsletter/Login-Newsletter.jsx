@@ -1,5 +1,5 @@
 import React from "react";
-import "./newsletter.css";
+import "../newsletter.css";
 import { Container, Row, Col } from "reactstrap";
 import { auth, provider } from "../firebase-config";
 import { signInWithPopup } from "firebase/auth";

@@ -7,7 +7,7 @@ import Courses from "../components/Sección-cursos/Courses";
 import ChooseUs from "../components/Elige-nosotros/ChooseUs";
 import Features from "../components/Sección-caracteristicas/Features";
 import FreeCourse from "../components/Sección-cursos-libres/FreeCourse";
-import LoginNewsletter from "../components/Newsletter/LoginNewsletter";
+import NewApp from "../components/Newsletter/New-App";
 import Footer from "../components/Footer/Footer";
 
 const Home = () => {
@@ -21,9 +21,9 @@ const Home = () => {
       <ChooseUs />
       <Features />
       <FreeCourse />
-      <LoginNewsletter />
+      <NewApp />
       <Footer />
-      </Fragment>
+    </Fragment>
   );
 };
 
