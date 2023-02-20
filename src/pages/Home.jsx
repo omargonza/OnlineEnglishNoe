@@ -1,4 +1,4 @@
-import React,{Fragment} from "react";
+import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "../components/Header/Header";
 import CompanySection from "../components/Sección-empresas/Company";
@@ -20,7 +20,7 @@ const Home = () => {
 
 <Route path= "../components/Header/Header.jsx" element={<Header/>}/> 
     <Routes> 
-      <Route path= "../components/Inicio/Inicio.jsx" element={<Inicio/>}/>
+      <Route path= "/" element={<Inicio/>}/>
       <Route path= "../components/Sobre-nosotros/AboutUs" element={<AboutUs/>}/> 
       <Route path= "../components/Sección-empresas/Company" element={<CompanySection/>}/> 
       <Route path= "../components/Sección-cursos/Courses" element={<Courses/>}/> 
