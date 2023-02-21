@@ -10,29 +10,44 @@ import Features from "../components/Sección-caracteristicas/Features";
 import FreeCourse from "../components/Sección-cursos-libres/FreeCourse";
 import Footer from "../components/Footer/Footer";
 import Newsletter from "../components/PageNewsletter/newsletter";
-
-
-
+import App from "../App.js"
 const Home = () => {
   return (
-    
     <BrowserRouter>
-
-<Route path= "../components/Header/Header.jsx" element={<Header/>}/> 
-    <Routes> 
-      <Route path= "/" element={<Inicio/>}/>
-      <Route path= "../components/Sobre-nosotros/AboutUs" element={<AboutUs/>}/> 
-      <Route path= "../components/Sección-empresas/Company" element={<CompanySection/>}/> 
-      <Route path= "../components/Sección-cursos/Courses" element={<Courses/>}/> 
-      <Route path= "../components/Elige-nosotros/ChooseUs" element={<ChooseUs/>}/> 
-      <Route path= "../components/Sección-caracteristicas/Features" element={<Features/>}/> 
-      <Route path= "../components/Sección-cursos-libres/FreeCourse"  element={<FreeCourse/>}/>
-      <Route path=  "../components/PageNewsletter/newsletter"  element={<Newsletter/>}/>
-      <Route path= "../components/Footer/Footer"element={Footer}/>
+      <Route path="../components/Header/Header.jsx" element={<Header />} />
+      <Routes>
+      <Route path="/" element={ <Inicio />} />
+        <Route
+          path="../components/Sobre-nosotros/AboutUs"
+          element={<AboutUs />}
+        />
+        <Route
+          path="../components/Sección-empresas/Company"
+          element={<CompanySection />}
+        />
+        <Route
+          path="../components/Sección-cursos/Courses"
+          element={<Courses />}
+        />
+        <Route
+          path="../components/Elige-nosotros/ChooseUs"
+          element={<ChooseUs />}
+        />
+        <Route
+          path="../components/Sección-caracteristicas/Features"
+          element={<Features />}
+        />
+        <Route
+          path="../components/Sección-cursos-libres/FreeCourse"
+          element={<FreeCourse />}
+        />
+        <Route
+          path="../components/PageNewsletter/newsletter"
+          element={<Newsletter />}
+        />
+        <Route path="../components/Footer/Footer" element={Footer} />
       </Routes>
     </BrowserRouter>
-  
-    
   );
 };
 

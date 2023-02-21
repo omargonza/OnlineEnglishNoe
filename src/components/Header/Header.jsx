@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+
 import { Container } from "reactstrap";
 import "./header.css";
 import logo from "../../assests/images/logo color miss noe.png"
@@ -10,7 +11,7 @@ const navLinks = [
   },
   {
     display: "Sobre Nosotros",
-    url: "../components/About-us/AboutUs",
+    url: "../components/Sobre-nosotros/AboutUs",
   },
 
   {
